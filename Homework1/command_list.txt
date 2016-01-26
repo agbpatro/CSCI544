@@ -1,0 +1,16 @@
+python utf8encoder.py japanese_in.txt 
+diff utf8encoder_out.txt japanese_out.txt 
+#cat japanese_out.txt
+#cat utf8encoder_out.txt
+python utf8encoder.py english_in.txt 
+diff utf8encoder_out.txt english_out.txt 
+#cat english_out.txt
+#cat utf8encoder_out.txt
+python utf8encoder.py gujarati_in.txt 
+diff utf8encoder_out.txt gujarati_out.txt 
+#cat gujarati_out.txt
+#cat utf8encoder_out.txt
+python utf8encoder.py arabic_in.txt 
+diff utf8encoder_out.txt arabic_out.txt 
+#cat arabic_out.txt
+#cat utf8encoder_out.txt
